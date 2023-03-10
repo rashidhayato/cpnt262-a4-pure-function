@@ -1,25 +1,24 @@
-// Step 1: Declare function
-const greet = function(name, lang) {
+const hourlyRate = 20
+const dailypayMent  = function (week){
+  const total = week + hourlyRate;
+  const hourly = TimeRanges * hourlyRate;
+    
+       console.log(`$${dailypayMent} plus ${hourlyRate * 8}% hour is $${total}.`);
+}
 
-  if (lang === 'es') {
-    console.log(`Hola, ${name}!`);
 
-  } else if (lang === 'fr') {
-    console.log(`Bonjour, ${name}!`);
 
-  // } else if (lang === 'ch') {
-  //   console.log(`Nihao, ${name}!`);
 
-  // } else {
-  //   console.log(`Hi, ${name}!`);
-  // }
-} }
+// week 1
+const week1 = 10;
 
-// Step 2: Invoke function
-greet('Tony', 'ch');
+// week 2
+const week2 = 20;
 
-// greet('Cordelle', 'fr');
+// week 3
+const week3 = 30;
 
-// greet('Deadpool', 'es');
-
-// greet('The Last of Us', 'en');
+// Function // Argument //
+dailypayMent(week1)
+dailypayMent(week2)
+dailypayMent(week3)
